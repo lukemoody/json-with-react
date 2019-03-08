@@ -13,7 +13,7 @@ class MyAjaxCall extends Component {
 
   componentDidMount() {
     /* Fetch data from API */
-    fetch("https://api.github.com/users/lukemoody/repos")
+    fetch("xxxx")
     /* begin accessing JSON data here */
     .then(response => {
       return response.json();
